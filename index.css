@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'IBMPlexSansKR';
+    src: url('./font/IBMPlexSansKR-Regular.woff2') format('woff2'),
+        url('./font/IBMPlexSansKR-Regular.woff') format('woff'),;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR';
+    src: url('./font/IBMPlexSansKR-Bold.woff2') format('woff2'),
+        url('./font/IBMPlexSansKR-Bold.woff') format('woff'),;
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dovemayo-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    min-width: 1450px;
+    font-family: 'IBMPlexSansKR';
+    font-size: 14px;
+    line-height: 24px;
+    color: #464646;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+header{
+    height: 100px;
+}
+.header_inner{
+    margin: 0 auto;
+    width: 1310px;
+    color: #7b6a58;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'IBMPlexSansKR';
+}
+.header_inner h1{
+    float: left;
+    padding-top: 10px;
+}
+.gnb{
+    float: left;
+    display: flex;
+    padding-left: 200px;
+}
+.gnb li{
+    padding: 40px;
+}
+.gnb2{
+    display: flex;
+    float: right;
+    padding-top: 25px;
+}
+.gnb2 li{
+    padding: 10px;
+}
+
+
+
+.mainbanner img{
+    width: 100%;
+}
+.mainbanner{
+    margin-top:4px;
+}
+.mainbanner .swiper-button-next,
+.mainbanner .swiper-button-prev{
+  color:#fff;
+}
+.mainbanner .swiper-pagination span{
+  background-color:#fff;
+}
+
+
+
+.big_box{
+    width:100%;
+    background-color:#ffeeee ;
+    height: 900px;
+}
+.card img{
+    width:70%;
+}
+.card{
+    text-align: center;
+    padding-bottom:50px;
+}
+.card_box{
+    width:1320px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 150px;
+}
+.card_box h1{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 50px;
+    color: #7b6a58;
+    padding-bottom: 100px;
+    
+}
+.card_box h2{
+    padding-top: 20px;
+}
+.card_next{
+    padding-top: 50px;
+    right:-50px;
+}
+.card_prev{
+    padding-top: 50px;
+    left:-50px;
+}
+
+.card_box .swiper-button-next,
+.card_box .swiper-button-prev{
+    color:#f4a7a8;
+}
+
+.card .swiper-pagination span{
+    background-color:#f4a7a8;
+}
+
+
+
+#video{
+    width: 1200px;
+    margin: 0 auto;
+    padding:200px 0;
+}
+#video video{
+    width: 100%;
+}
+
+
+
+.item{
+    text-align: center;
+    width: 690px;
+    margin: 0 auto;
+    height: 300px;
+    padding-bottom: 200px;
+}
+.item h1{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 50px;
+    color: #7b6a58;
+    padding-bottom: 100px;
+}
+.item h2{
+    padding-top:30px;
+}
+.item ul li{
+    float: left;
+    padding-left: 50px;
+
+}
+
+
+
+
+.back{
+    height:400px;
+    width:100%;
+    background-image: url(./img/index/backgraound.jpg.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    text-align: center;
+    color:#fff;
+    margin: 200px 0 200px 0;
+  }
+.back h1{
+    padding-top: 180px;
+    color: #fff;
+    font-family: 'IBMPlexSansKR';
+    font-weight: normal;
+    font-size: 50px;
+
+}
+
+
+.event{
+    padding-bottom: 300px;
+}
+.event_inner{
+    width:1320px;
+    margin: 0 auto;
+}
+.event ul li{
+    float: left;
+    padding-left: 30px;
+}
+.event h1{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 50px;
+    color: #7b6a58;
+    padding-bottom: 100px;
+}
+.instagram{
+    padding-bottom: 200px;
+}
+.instagram_inner{
+    width:1200px;
+    margin: 0 auto;
+}
+.instagram ul li{
+    float: left;
+    margin-left: 30px;
+}
+.instagram h1{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 50px;
+    color: #7b6a58;
+    padding-bottom: 100px;
+}
+
+
+
+.hover1 {
+    display: flex;
+    width: 1200px;
+    margin: 50px auto;
+    justify-content: space-between;
+  }
+
+  .hover1 li:hover img {
+    transform: scale(1.2, 1.2);
+
+  }
+
+  .hover1 li img {
+    transition: all 0.5s;
+  }
+
+  .hover1 li {
+    overflow: hidden;
+  }
+
+
+footer{
+    height: 439px;
+    background-image: url(./img/bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+}
+.logo2{
+    padding:100px 0 0 0;
+}
+.icon{
+    float: right;
+}
+.footer_text{
+    padding: 100px 0 0 0;
+    color: white;
+}

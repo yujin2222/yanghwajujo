@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'IBMPlexSansKR';
+    src: url('./font/IBMPlexSansKR-Regular.woff2') format('woff2'),
+        url('./font/IBMPlexSansKR-Regular.woff') format('woff'),;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR';
+    src: url('./font/IBMPlexSansKR-Bold.woff2') format('woff2'),
+        url('./font/IBMPlexSansKR-Bold.woff') format('woff'),;
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dovemayo-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: 'IBMPlexSansKR';
+    font-size: 14px;
+    line-height: 24px;
+    color: #464646;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+header{
+    height: 100px;
+}
+.header_inner{
+    margin: 0 auto;
+    width: 1310px;
+    color: #7b6a58;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'IBMPlexSansKR';
+}
+.header_inner h1{
+    float: left;
+    padding-top: 10px;
+}
+.gnb{
+    float: left;
+    display: flex;
+    padding-left: 200px;
+}
+.gnb li{
+    padding: 40px;
+}
+.gnb2{
+    display: flex;
+    float: right;
+    padding-top: 25px;
+}
+.gnb2 li{
+    padding: 10px;
+}
+
+
+
+#main_banner{
+    background-image: url(./img/sub2/sub2_banner.gif);
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+
+.middle1 h1{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 50px;
+    color: #7b6a58;
+    margin-top: 120px;
+}
+.middle1 h2{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 25px;
+    color: #7b6a58;
+    margin-top: 30px;
+}
+
+
+.big_box{
+    margin-top: 100px;
+    width:100%;
+    background-color:#e2f3dc ;
+    height: 900px;
+}
+.card img{
+    width:70%;
+}
+.card{
+    text-align: center;
+    padding-bottom:50px;
+}
+.card_box{
+    width:1320px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 220px;
+}
+.card_box h2{
+    padding-top: 20px;
+}
+.card_next{
+    padding-top: 50px;
+    right:-50px;
+}
+.card_prev{
+    padding-top: 50px;
+    left:-50px;
+}
+
+.card_box .swiper-button-next,
+.card_box .swiper-button-prev{
+    color:#9dc095;
+}
+
+.card .swiper-pagination span{
+    background-color:#9dc095;
+}
+
+
+
+
+.margin{
+    margin: 0 87.5px;
+}
+#food h2{
+    padding-top: 20px;
+}
+#food ul{
+    padding-top: 100px;
+}
+.food_inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.food_inner ul li{
+    float: left;
+    text-align: center;
+}
+
+.middle2 h1{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 50px;
+    color: #7b6a58;
+    margin-top: 150px;
+}
+.middle2 h2{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 25px;
+    color: #7b6a58;
+    margin-top: 30px;
+}
+
+#Goods{
+    margin-bottom: 200px;
+}
+#Goods h2{
+    padding-top: 20px;
+}
+#Goods ul{
+    padding-top: 100px;
+}
+.goods_inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.goods_inner ul li{
+    float: left;
+    text-align: center;
+}
+
+
+
+.middle3 h1{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 50px;
+    color: #7b6a58;
+    margin-top: 150px;
+}
+.middle3 h2{
+    text-align: center;
+    font-family: 'Dovemayo-Medium';
+    font-size: 25px;
+    color: #7b6a58;
+    margin-top: 30px;
+}
+
+
+
+footer{
+    height: 439px;
+    background-image: url(./img/bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+}
+.logo2{
+    padding:100px 0 0 0;
+}
+.icon{
+    float: right;
+}
+.footer_text{
+    padding: 100px 0 0 0;
+    color: white;
+}

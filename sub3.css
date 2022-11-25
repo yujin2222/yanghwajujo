@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'IBMPlexSansKR';
+    src: url('./font/IBMPlexSansKR-Regular.woff2') format('woff2'),
+        url('./font/IBMPlexSansKR-Regular.woff') format('woff'),;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR';
+    src: url('./font/IBMPlexSansKR-Bold.woff2') format('woff2'),
+        url('./font/IBMPlexSansKR-Bold.woff') format('woff'),;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: 'IBMPlexSansKR';
+    font-size: 14px;
+    line-height: 24px;
+    color: #464646;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+header{
+    height: 100px;
+}
+.header_inner{
+    margin: 0 auto;
+    width: 1310px;
+    color: #7b6a58;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'IBMPlexSansKR';
+}
+.header_inner h1{
+    float: left;
+    padding-top: 10px;
+}
+.gnb{
+    float: left;
+    display: flex;
+    padding-left: 200px;
+}
+.gnb li{
+    padding: 40px;
+}
+.gnb2{
+    display: flex;
+    float: right;
+    padding-top: 25px;
+}
+.gnb2 li{
+    padding: 10px;
+}
+
+
+
+#event{
+    background-image: url(./img/sub3/sub3_banner.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+
+section{
+    height: 1800px;
+}
+.container{
+    margin: 0 auto;
+    width: 1310px;
+    padding: 150px 0;
+}
+.bold{
+    font-size: 24px;
+    font-weight: bold;
+}
+.regular{
+    font-size: 20px;
+    font-weight: normal;
+}
+.section1{
+    float: left;
+}
+.section1 li{
+    padding-bottom: 50px;
+}
+.section1 li p{
+    padding-top: 20px;
+}
+.section2{
+    float: right;
+}
+.section2 li{
+    padding-bottom: 50px;
+}
+.section2 li p{
+    padding-top: 20px;
+}
+
+
+
+footer{
+    height: 439px;
+    background-image: url(./img/bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+}
+.logo2{
+    padding:100px 0 0 0;
+}
+.icon{
+    float: right;
+}
+.footer_text{
+    padding: 100px 0 0 0;
+    color: white;
+}

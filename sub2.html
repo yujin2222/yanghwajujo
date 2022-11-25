@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>yanghwajujo</title>
+    <link rel="shortcut icon" href="./img/Favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./sub2.css">
+</head>
+<body>
+    <header>
+        <div class="header_inner clearfix">
+            <h1><a href="#"><img src="./img/logo.png" alt="logo"></a></h1>
+            <ul class="gnb">
+              <li><a href="./sub1.html">양화주조</a></li>
+              <li><a href="./sub2.html">제품소개</a></li>
+              <li><a href="./sub3.html">이벤트</a></li>
+            </ul>
+            <ul class="gnb2">
+                <li class="search"><a href="#"><img src="./img/search.png" alt="search"></a></li>
+                <li><a href="#"><img src="./img/login.png" alt="login"></a></li>
+                <li><a href="#"><img src="./img/home.png" alt="home"></a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <div id="main_banner">
+    </div>
+
+    <div class="middle1">
+        <h1>Drink</h1>
+        <h2>양화주조에서 만드는 다양한 과실주</h2>
+    </div>
+
+
+    <div class="big_box">
+        <div class="card_box">
+          <!-- Swiper card -->
+          <div class="swiper card">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/index/grape.png" alt="1">
+                <h2>[new] 둠칫둠칫포도</h2>
+                <p class="price">price : 8,900won</p>
+                <p class="sub">말랑말랑 과일젤리 함유</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/index/peach.png" alt="2">
+                <h2>[new] 둠칫둠칫복숭아</h2>
+                <p class="price">price : 8,900won</p>
+                <p class="sub">말랑말랑 과일젤리 함유</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/index/lemon.png" alt="3">
+                <h2>[new] 둠칫둠칫레몬</h2>
+                <p class="price">price : 8,900won</p>
+                <p class="sub">말랑말랑 과일젤리 함유</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/index/grape.png" alt="4">
+                <h2>[new] 둠칫둠칫포도</h2>
+                <p class="price">price : 8,900won</p>
+                <p class="sub">말랑말랑 과일젤리 함유</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/index/peach.png" alt="5">
+                <h2>[new] 둠칫둠칫복숭아</h2>
+                <p class="price">price : 8,900won</p>
+                <p class="sub">말랑말랑 과일젤리 함유</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/index/lemon.png" alt="6">
+                <h2>[new] 둠칫둠칫레몬</h2>
+                <p class="price">price : 8,900won</p>
+                <p class="sub">말랑말랑 과일젤리 함유</p>
+              </div>
+            </div>
+  
+            <div class="swiper-pagination"></div>
+          </div>
+  
+          
+          <div class="swiper-button-next card_next"></div>
+          <div class="swiper-button-prev card_prev"></div>
+        </div>
+      </div>
+  
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+   
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".card", {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".card_next",
+        prevEl: ".card_prev",
+      },
+    });
+  </script>
+
+  
+    <div class="middle2">
+      <h1>Food</h1>
+      <h2>양화주조에서 직접 제작한 수제 안주류</h2>
+    </div>
+
+
+    <div id="food">
+      <div class="food_inner clearfix">
+      <ul>
+        <li>
+          <img src="./img/sub2/cheese.jpg" alt="cheese"></img>
+            <h2>[new]  떠먹는 치즈</h2>
+            <p>price : 6,900won</p>
+            <p>고소함 가득 치즈그라탕</p>
+              
+        </li>
+        <li class="margin">
+          <img src="./img/sub2/salad.jpg" alt="salad"></img>
+            <h2>[new] 프레쉬 샐러드</h2>
+            <p>price : 7,900won</p>
+            <p>이제는 안주도 건강하게!</p>
+              
+        </li>
+        <li>
+          <img src="./img/sub2/pizza.png" alt="pizza"></img>
+            <h2>[new] 양송이 핏짜</h2>
+            <p>price : 7,900won</p>
+            <p>저칼로리 식물성으로 만들어진</p>
+            
+        </li>
+      </ul>
+    </div>
+    </div>
+   
+
+    <div class="middle3">
+      <h1>Goods</h1>
+      <h2>양화주조의 귀여운 아이덴티티가 담긴 굿즈</h2>
+    </div>
+
+
+    <div id="Goods">
+      <div class="goods_inner clearfix">
+      <ul>
+        <li>
+          <img src="./img/sub2/glass.png" alt="glass"></img>
+            <h2>[new]  귀여운 와인잔</h2>
+              <p>price : 3,900won</p>
+              <p>양화주조 인기굿즈 와인잔</p>
+        </li>
+        <li class="margin">
+          <img src="./img/sub2/plate.png" alt="plate"></img>
+            <h2>[new] 접시 커트러리세트</h2>
+              <p>price : 11,900won</p>
+              <p>귀여운 커트러리세트</p>
+        </li>
+        <li>
+          <img src="./img/sub2/bag.png" alt="bag"></img>
+            <h2>[new] 양화주조 에코백</h2>
+            <p>price : 8,900won</p>
+            <p>꽃잎 가득 에코백</p>
+        </li>
+      </ul>
+    </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer_inner">
+        <div class="logo2"><img src="./img/footer logo.png" alt="logo2"></div>
+        <div class="icon"><img src="./img/footer icon.png" alt="icon"></div>
+        <p class="footer_text">대표. 최유진 <br>
+            주소. 부산광역시 중구 중앙대로 26 다원중앙타워 10층 이메일.info@yanghwajujo.com <br>
+            개인정보책임관리자. 최유진(info@yanghwajujo.com) <br>
+            사업자등록번호. 510-88-12345 통신판매업 신고번호. 제2022-부산중구-1234 [사업자정보확인]Tel. 070-1234-1234 Fax. : 070-1234-1234 <br>
+            양화주조. ALL RIGHTS RESERVED. HOSTING BY 카페24(주).</p>
+        </div>
+    </footer>
+</body>
+</html>
